@@ -17,8 +17,8 @@ const Photo = () => {
   };
 
   return (
-    <div className="flex ">
-      <img className="rounded-full h-44 w-44" src={image} alt="Profile" />
+    <div className=" flex mt-7 ">
+      <img className="rounded-full h-20 w-20 " src={image} alt="Profile" />
       <h3 onClick={handleUploadClick}>Upload Photo</h3>
       <input
         type="file"
